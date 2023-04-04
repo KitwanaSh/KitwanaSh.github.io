@@ -72,6 +72,29 @@ body {
   background-color: #fff;
 }
 
+/* My touch up 
+ ============================================*/
+
+.view-project {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1.23rem;
+}
+.view-project:hover {
+    color: #f72d2d;
+    font-weight: 700px;
+    border-bottom: 2px solid #380303;
+    border-right: 3px solid #380303;
+    border-left: 3px solid #380303;
+}
+
+
+
+
+
+
+/* ============================================= */
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
