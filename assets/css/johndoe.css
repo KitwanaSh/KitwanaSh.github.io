@@ -88,7 +88,7 @@ body {
     border-left: 3px solid #380303;
 }
 
-
+/* .portfolio-item */
 
 
 
@@ -11704,4 +11704,24 @@ pre .code {
   background: #F85C70;
   display: block;
   margin-top: 10px;
+}
+
+/* Other changes */
+.portfolio-container {
+    width: 1400px;
+    padding-left: -20px;
+    left: -80px;
+}
+.subtitle {
+    font-size: 1.1rem;
+}
+@media (max-width: 640px) {
+    .portfolio-container {
+        max-width: 500px;
+        padding-left: 0;
+        left: 0;
+    }
+    .subtitle {
+        font-size: 0.8rem;
+    } 
 }
