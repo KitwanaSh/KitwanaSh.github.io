@@ -11715,6 +11715,9 @@ pre .code {
 .subtitle {
     font-size: 1.1rem;
 }
+.small {
+    margin-left: 45%;
+}
 @media (max-width: 640px) {
     .portfolio-container {
         max-width: 500px;
