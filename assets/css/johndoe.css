@@ -11720,9 +11720,12 @@ pre .code {
 }
 @media (max-width: 640px) {
     .portfolio-container {
-        max-width: 500px;
+        max-width: 100%;
         padding-left: 0;
         left: 0;
+    }
+    .img-fluid {
+        width: 100%;
     }
     .subtitle {
         font-size: 0.8rem;
